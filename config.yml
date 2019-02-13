@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: BOScoin Mainnet Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -90,7 +90,7 @@ defaultContentLanguage: en
 # localhost should automatically work.
 #
 # Example: https://status.example.com/
-baseURL: https://cstate.mnts.lt
+baseURL: https://status.boscoin.io
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -105,11 +105,10 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
+    - name: Mainnet
+      description: https://mainnet.blockchainos.org/
     - name: API
-      description: The guts of the application.
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+      description: https://mainnet.blockchainos.org/api/v1
 
   # What date format to use?
   #
@@ -127,7 +126,7 @@ params:
   #
   # Default: true
   # BOOLEAN; `true`, `false`
-  useLargeHeaderDesign: false
+  useLargeHeaderDesign: true
 
   # Should we show the logo or the title
   # of the status page?
@@ -155,11 +154,10 @@ params:
   # Tabs on homepage
   # Uncomment to enable.
   #
-  # Format:
-  # customTabs:
-  #  -
-  #    name: Name
-  #    link: https://example.com
+  #  Format:
+  customTabs:
+    - name: BOScoin
+      link: https://boscoin.io
 
   # Auto refresh the page
   # every ~5 min
