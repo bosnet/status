@@ -90,7 +90,7 @@ defaultContentLanguage: en
 # localhost should automatically work.
 #
 # Example: https://status.example.com/
-baseURL: https://status.boscoin.io
+baseURL: https://kind-tesla-093e11.netlify.com
 
 ############################################################
 # +------------------------------------------------------+ #
